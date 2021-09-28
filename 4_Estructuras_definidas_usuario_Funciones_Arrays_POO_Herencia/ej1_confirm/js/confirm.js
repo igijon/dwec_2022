@@ -1,4 +1,4 @@
-function dialogos(){
+var dialogos = function(){
     var nombre = prompt("Cómo te llamas?");
     var respuesta = confirm("Sabes la hora " + nombre +"?");
     if (respuesta){
