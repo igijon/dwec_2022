@@ -11,4 +11,4 @@ function estudiar(){
 }
 
 estudiar();
-nueva();
+nuevo();

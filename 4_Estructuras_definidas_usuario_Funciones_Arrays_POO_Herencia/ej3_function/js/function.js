@@ -10,5 +10,6 @@ var parImpar = (function () {
     };
   }
 })();
-
 parImpar();
+console.log(parImpar);
+//parImpar();
