@@ -41,6 +41,11 @@ var Arma = function(nombre) {
   cuchillo.equipar();
   cuchillo.atacar('Zombi');
   
+  //PASOS PARA HERENCIA
+  //- Call para llamar al constructor con el contexto this.
+  //- Estaclecimiento del prototipo del padre
+  //- Corrección del constructor
+
   // Constructor para un tipo especializado de armas
   var ArmaConMunicion = function(nombre, maxMunicion) {
   
