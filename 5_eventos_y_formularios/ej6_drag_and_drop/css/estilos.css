@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 nov. 2020, 19:43:32
+    Author     : inma
+*/
+
+#container {
+    width: 580px;
+    height: 250px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .padre {  
+    width: 580px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .tipo {
+   flex-grow: 1;
+  }
+  #fuego {
+   background-color: #ffd54c;
+  }
+  #agua {
+    background-color: #42ccff;
+  }
+  #resultado {
+    text-align: center;
+    font-size: 30px;
+  }
+  .pokemon {
+     margin: 10px;
+     height: 80px;
+     width: 80px;
+  }
+  

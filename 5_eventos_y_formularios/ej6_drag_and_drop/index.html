@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+        <script src="js/javascript.js"></script>
+    </head>
+    <body>
+        <section id="container" ondrop="drop(event)">
+            <div class="padre">
+                <div class="tipo" id="fuego" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="tipo" id="agua" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+            <img class="pokemon" src="http://i65.tinypic.com/j0itlk.png" draggable="true" ondragstart="drag(event)" id="drag1"/>
+            <img class="pokemon" src="http://i65.tinypic.com/214vxts.png" draggable="true" ondragstart="drag(event)" id="drag2"/>
+            <img class="pokemon" src="http://i66.tinypic.com/ckf41.jpg" draggable="true" ondragstart="drag(event)" id="drag3"/>
+            <img class="pokemon" src="http://i66.tinypic.com/2nq5pp3.png" draggable="true" ondragstart="drag(event)" id="drag4"/>
+        </section>
+        <div id="resultado">...</div>
+    </body>
+</html>
