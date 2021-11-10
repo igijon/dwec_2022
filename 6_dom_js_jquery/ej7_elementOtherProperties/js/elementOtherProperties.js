@@ -3,7 +3,7 @@ function cargar()
     var elementH1 = document.getElementsByTagName('h1')[0];
     var elementP = document.getElementsByTagName('p')[0];
 
-    elementH1.tagName = 'H2';
+    elementH1.tagName = 'h2'; //TODO: error
 
     console.log('-- Tag de los elementos --');
     console.log(elementH1.tagName);
